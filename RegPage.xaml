@@ -5,14 +5,22 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Net_Booking_System"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="450" d:DesignWidth="350"
       Title="RegPage"
-      Height="650" Width="350">
+      MaxHeight="650" MaxWidth="350">
 
     <Grid Margin="0,0,0,0">
-        <Canvas HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="350" Background="#2196F3" Grid.ColumnSpan="2" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="93*"/>
+            <RowDefinition Height="232*"/>
+        </Grid.RowDefinitions>
+        <Canvas HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="350" Background="#2196F3" >
             <Label HorizontalAlignment="Center" FontSize="40" FontWeight="Bold" FontFamily="Arial" FontStyle="Normal" VerticalAlignment="Center" Foreground ="white" Height="60" Width="350" Padding="50,10,0,0" Content="Registration"/>
         </Canvas>
-        <Frame />
+        <StackPanel Width="350" Margin="0,40,0,0" Height="550" Grid.RowSpan="2" HorizontalAlignment="Center">
+            <Canvas Height="60" Width="300" Background="Gray" Margin="0,40,0,0">
+                <TextBox  Width="296" TextAlignment="Center" FontSize="40"  Foreground="Gray" FontWeight="Bold" Height="56" VerticalAlignment="Top" Background="White" Text="Name" Canvas.Top="0" Margin="2,2,0,0"/>
+            </Canvas>
+        </StackPanel>
     </Grid>
 </Page>
