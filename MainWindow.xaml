@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Net_Booking_System"
         mc:Ignorable="d"
-        Title="Booking System" Height="650" Width="350">
+        Title="Booking System" MaxHeight="650" MaxWidth="350">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="4*"/>
