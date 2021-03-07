@@ -37,7 +37,15 @@ namespace Net_Booking_System
         private void Login_Click(object sender, RoutedEventArgs e) // login button
         {
 
-            
+            // go to login
+
         }
+
+        private void RegisterBtn_Click(object sender, RoutedEventArgs e)
+        {
+            RegPage Reg = new RegPage();
+            this.Content = Reg;
+        }
+
     }
 }

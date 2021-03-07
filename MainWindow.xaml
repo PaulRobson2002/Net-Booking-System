@@ -13,10 +13,12 @@
         </Grid.ColumnDefinitions>
 
         <Button x:Name="Login" Content="Login" HorizontalAlignment="center" FontWeight="Bold" Margin="71,0,71,200" VerticalAlignment="Bottom" Width="200" FontFamily="Arial" Height="50" FontSize="40" Background="#2196F3" Foreground ="white" BorderBrush="Black" BorderThickness="2px" Grid.ColumnSpan="2" Click="Login_Click"/>
-        <Canvas HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="342" Background="#2196F3" Grid.ColumnSpan="2" />
-        <Label HorizontalAlignment="Center" FontSize="40" FontWeight="Bold" FontFamily="Arial" FontStyle="Normal" VerticalAlignment="Center" Margin="10,0,10,539" Foreground ="white" Grid.ColumnSpan="2" Height="80" Width="324" Padding="50,20,0,0">Login Page</Label>
-        <Button x:Name="Register" Content="Register" HorizontalAlignment="Center" FontSize="40" Width="200" Height="50" Foreground="White" Background="#2196f3" VerticalAlignment="Bottom" FontWeight="Bold" FontFamily="Arial" FontStyle="Normal" Margin="71,0,71,125" BorderBrush="Black" BorderThickness="2" Grid.ColumnSpan="2"/>
+        <Canvas HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="350" Background="#2196F3" Grid.ColumnSpan="2" >
+            <Label HorizontalAlignment="Center" FontSize="40" FontWeight="Bold" FontFamily="Arial" FontStyle="Normal" VerticalAlignment="Center" Foreground ="white" Height="80" Width="324" Padding="50,20,0,0" Content="Login Page"/>
+        </Canvas>
+        <Button x:Name="RegisterBtn" Content="Register" HorizontalAlignment="Center" FontSize="40" Width="200" Height="50" Foreground="White" Background="#2196f3" VerticalAlignment="Bottom" FontWeight="Bold" FontFamily="Arial" FontStyle="Normal" Margin="71,0,71,125" BorderBrush="Black" BorderThickness="2" Grid.ColumnSpan="2" Click="RegisterBtn_Click"/>
         <Button x:Name="Exit" Content="Exit" FontSize="40" Width="200" Height="50" Foreground="White" Background="#2196f3" VerticalAlignment="Bottom" FontWeight="Bold" FontFamily="Arial" FontStyle="Normal" Margin="71,0,71,50" HorizontalAlignment="Center" BorderBrush="Black" BorderThickness="2px" Grid.ColumnSpan="2" Click="Exit_Click"/>
+        <Image Source="Placeholder.png" Width="200" VerticalAlignment="Top" Margin="71,125,71,0" Grid.ColumnSpan="2"/>
         <Image Source="Placeholder.png" Width="200" VerticalAlignment="Top" Margin="71,125,71,0" Grid.ColumnSpan="2"/>
     </Grid>
 </Window>
