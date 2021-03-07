@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 
 namespace Net_Booking_System
 {
@@ -20,9 +22,22 @@ namespace Net_Booking_System
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Exit_Click(object sender, RoutedEventArgs e) // exit button
+        {
+            Close(); // close the program
+        }
+
+        private void Login_Click(object sender, RoutedEventArgs e) // login button
+        {
+
+            dbinfo.Addtouser("bob", "1234", "1234", "bill");
         }
     }
 }
