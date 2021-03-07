@@ -37,7 +37,7 @@ namespace Net_Booking_System
         private void Login_Click(object sender, RoutedEventArgs e) // login button
         {
 
-            dbinfo.Addtouser("bob", "1234", "1234", "bill");
+            
         }
     }
 }
