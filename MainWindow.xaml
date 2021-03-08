@@ -5,19 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Net_Booking_System"
         mc:Ignorable="d"
-        Title="Booking System" MaxHeight="650" MaxWidth="350">
-    <Grid>
+        Title="Booking System" MaxHeight="650" MaxWidth="350" Height="650" Width="350" MinHeight="650" MinWidth="350">
+    <Grid Width="350" HorizontalAlignment="Left" Height="650" VerticalAlignment="Center">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="4*"/>
-            <ColumnDefinition Width="15*"/>
+
+
         </Grid.ColumnDefinitions>
 
-        <Button x:Name="Login" Content="Login" HorizontalAlignment="center" FontWeight="Bold" Margin="71,0,71,200" VerticalAlignment="Bottom" Width="200" FontFamily="Arial" Height="50" FontSize="40" Background="#2196F3" Foreground ="white" BorderBrush="Black" BorderThickness="2px" Grid.ColumnSpan="2" Click="Login_Click"/>
-        <Canvas HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="350" Background="#2196F3" Grid.ColumnSpan="2" >
-            <Label HorizontalAlignment="Center" FontSize="40" FontWeight="Bold" FontFamily="Arial" FontStyle="Normal" VerticalAlignment="Center" Foreground ="white" Height="80" Width="324" Padding="50,20,0,0" Content="Login Page"/>
+        <Button x:Name="Login" Content="Login" HorizontalAlignment="center" FontWeight="Bold" Margin="71,0,71,200" VerticalAlignment="Bottom" Width="200" FontFamily="Arial" Height="50" FontSize="40" Background="#2196F3" Foreground ="white" BorderBrush="Black" BorderThickness="2px"  Click="Login_Click"/>
+        <Canvas HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="350" Background="#2196F3"  >
+            <Label HorizontalAlignment="Center" FontSize="40" FontWeight="Bold" FontFamily="Arial" FontStyle="Normal" VerticalAlignment="Center" Foreground ="white" Height="67" Width="340" Padding="50,10,0,0" Content="Login Page" Canvas.Top="23"/>
         </Canvas>
-        <Button x:Name="RegisterBtn" Content="Register" HorizontalAlignment="Center" FontSize="40" Width="200" Height="50" Foreground="White" Background="#2196f3" VerticalAlignment="Bottom" FontWeight="Bold" FontFamily="Arial" FontStyle="Normal" Margin="71,0,71,125" BorderBrush="Black" BorderThickness="2" Grid.ColumnSpan="2" Click="RegisterBtn_Click"/>
-        <Button x:Name="Exit" Content="Exit" FontSize="40" Width="200" Height="50" Foreground="White" Background="#2196f3" VerticalAlignment="Bottom" FontWeight="Bold" FontFamily="Arial" FontStyle="Normal" Margin="71,0,71,50" HorizontalAlignment="Center" BorderBrush="Black" BorderThickness="2px" Grid.ColumnSpan="2" Click="Exit_Click"/>
+        <Button x:Name="RegisterBtn" Content="Register" HorizontalAlignment="Center" FontSize="40" Width="200" Height="50" Foreground="White" Background="#2196f3" VerticalAlignment="Bottom" FontWeight="Bold" FontFamily="Arial" FontStyle="Normal" Margin="71,0,71,125" BorderBrush="Black" BorderThickness="2"  Click="RegisterBtn_Click"/>
+        <Button x:Name="Exit" Content="Exit" FontSize="40" Width="200" Height="50" Foreground="White" Background="#2196f3" VerticalAlignment="Bottom" FontWeight="Bold" FontFamily="Arial" FontStyle="Normal" Margin="71,0,71,50" HorizontalAlignment="Center" BorderBrush="Black" BorderThickness="2px"  Click="Exit_Click"/>
         <Image Source="Placeholder.png" Width="200" VerticalAlignment="Top" Margin="71,125,71,0" Grid.ColumnSpan="2"/>
         <Image Source="Placeholder.png" Width="200" VerticalAlignment="Top" Margin="71,125,71,0" Grid.ColumnSpan="2"/>
     </Grid>
