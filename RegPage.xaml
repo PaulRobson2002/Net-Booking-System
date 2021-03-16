@@ -19,7 +19,9 @@
         </Canvas>
         <StackPanel Width="350" Margin="0,40,0,0" Height="550" Grid.RowSpan="2" HorizontalAlignment="Center">
             <Canvas Height="60" Width="300" Background="Gray" Margin="0,40,0,0">
-                <TextBox  Width="296" TextAlignment="Center" FontSize="40"  Foreground="Gray" FontWeight="Bold" Height="56" VerticalAlignment="Top" Background="White" Text="Name" Canvas.Top="0" Margin="2,2,0,0"/>
+                <TextBox  Width="296" TextAlignment="Center" FontSize="40"  Foreground="Gray" FontWeight="Bold" Height="56" VerticalAlignment="Top" Background="White" Text="Name" Canvas.Top="0" Margin="2,2,0,0" Name="Name"/>
+                <DatePicker Width="296" Text="Test" FontFamily="Arial" Height="56" Canvas.Left="2" Canvas.Top="82" FontSize="40" />
+                
             </Canvas>
         </StackPanel>
     </Grid>
